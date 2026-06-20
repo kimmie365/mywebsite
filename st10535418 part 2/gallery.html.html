@@ -1,0 +1,90 @@
+<doctype html>
+    <html lang="en">
+    <head>
+        <title>gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+.mySlides {display:none}
+</style>
+<body>
+
+
+            home:kims gallery
+        </title>
+        <link rel="stylesheet" href="css style.css">
+        <body>
+            <nav>
+                    <ul>
+      <li><a href="index.html">home</a></li>
+          <li><a href="services.html">services</a></li>
+          <li><a href="about.html">about page</a></li>
+          <li><a href="contact us.html">contact us</a></li>
+          <li><a href="gallery.html.html">gallery</a></li>
+        </ul>
+    </nav>
+    <div class="w3-row-padding" style="margin:0-16px">
+        <div class="w3-col s4">
+            <img src="img/designed cakes.jpg.jpg"
+            style="width: 100;cursor: pointer;"
+            onclick="openmodal();currentslide(1)"
+            class="w3-hover-shadow">
+        </div>
+        <div class="w3-col s4">
+            <img src="img/brownie.jpg"
+            style="width:100%;cursor:pointer"
+
+            onclick="openmodal();currentslide(2)"
+            class="w3-hover-shadow">
+        </div>
+<!-- the lightbox-->
+    <div id="mymodal" class="w3-modal w3-black"
+    style="display:none">
+    <span class="w3-text-white w3- xxlarge w3-hover-text-grey w3-container w3 display-topright"
+    onclick="closemodal()"
+    style="cursor:pointer">&times</span>
+    <div class="w3-modal-content">
+        <img class="myslides" src="img/designed cakes.jpg.jpg" style="width:100">
+        <img class="myslides" src="img/brownie.jpg" style="width: 100%">
+        <img class="myslides" src="img/cupcakes.jpg.jpg" style="width: 100%">
+        <!--next-->
+        <div class="w3-container w3 display-container">
+            <button class="w3-display-left- w3-black " onclick="plusSide(-1)">&#10094;</button>
+            <button class="w3 - display-w3 w3-black" onclick="plusSide(1)">&#10095</button>
+        </div>
+    </div>
+
+</div>
+</head>
+<header>
+
+<h1>  sweet gallery</h1>
+<p> freshly baked goodies</p>
+
+
+<br>
+</header>
+
+<ul>
+    <li>opening of kims bakery</li>
+    <img src="img/bakery.jpg" alt="bakery" width="200">
+    <img src="img/brownie.jpg" class="gallery-img" width="200">
+</ul>
+<ul>
+    <img src="img/cookies.jpg.jpg" alt="cookies" width="200">    <img src="img/brownie.jpg" alt="brownie" width="200">
+    <img src="img/pasteries.jpg.jpg" alt="pasteries" width="200">
+    <img src="img/designed cakes.jpg.jpg" alt="designed cakes" width="200">
+    <img src="img/cupcakes.jpg.jpg" alt="cupcake" width="200"><br>
+
+    <img src="img/cakes.jpg.jpg" alt="cakes" width="200">
+    <img src="img/birthday cakes.jpg" alt="birthday cake" width="200">
+    
+</ul>
+
+<footer>
+    <p>&copy; 2026 kims bakery</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+    </html>
+
